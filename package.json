@@ -1,0 +1,35 @@
+{
+  "name": "personal-page",
+  "version": "1.0.0",
+  "description": "Made for Karen Cardenas",
+  "main": "index.html",
+  "scripts": {
+    "build-watch": "sass --watch sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenporrass/karenporrass.github.io.git"
+  },
+  "keywords": [
+    "page",
+    "web",
+    "portafolio",
+    "portfolio",
+    "developer",
+    "programmer",
+    "personal",
+    "karen",
+    "natalia",
+    "porras",
+    "cardenas"
+  ],
+  "author": "Karen Cardenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karenporrass/karenporrass.github.io/issues"
+  },
+  "homepage": "https://github.com/karenporrass/karenporrass.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}
