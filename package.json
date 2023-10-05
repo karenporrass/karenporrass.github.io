@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Made for Karen Cardenas",
   "main": "index.html",
-  "scripts": {
-    "build-watch": "sass --watch sass/main.scss css/main.css"
-  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karenporrass/karenporrass.github.io.git"
