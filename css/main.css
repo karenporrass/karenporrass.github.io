@@ -1,0 +1,110 @@
+.description {
+  padding-bottom: 20em !important;
+  background-color: #273b82;
+}
+
+.skills {
+  margin-top: -14em;
+}
+
+.is-skill-icon {
+  color: #273b82;
+}
+
+.projects figure {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.projects figure img {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s linear;
+}
+.projects figure figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px 20px;
+  background: #192a56;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+.projects figure:hover img {
+  transform: scale(1.2);
+}
+.projects figure:hover figcaption {
+  opacity: 1;
+}
+
+footer {
+  background: #273b82;
+}
+
+.contact {
+  padding: 15px 0;
+}
+.contact a:hover {
+  color: aqua;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  border: 2px solid #ccc;
+  color: #FFFFFF;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  border: 2px solid #FFFFFF;
+  color: #273b82;
+  background: #FFFFFF;
+}
+
+@media only screen and (max-width: 520px) {
+  h1 {
+    font-size: 1.3em;
+  }
+}
+
+.bordered {
+  border-right: 1px solid #ccc;
+}
+@media only screen and (max-width: 770px) {
+  .bordered {
+    border-right: 0 !important;
+  }
+}
+
+.centered {
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #273b82;
+}
+
+/*# sourceMappingURL=main.css.map */
